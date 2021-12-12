@@ -1,0 +1,37 @@
+﻿StateID,StateName,StateAbbreviation,AltTag
+0bfc94ba-9b88-4729-831b-e59bb1f5b14e,Andaman and Nicobar Islands,AN,IN-AN
+d9f951c9-a00f-4eb3-ae53-e502bf3d7ba3,Andhra Pradesh,AP,IN-AP
+9a596eb8-4b81-4e11-962c-3ba2273dd48e,Arunachal Pradesh,AR,IN-AR
+c1bbb235-9b0c-44a1-9c66-ed0317bd9785,Assam,AS,IN-AS
+1c480d0d-a5af-4c0f-9227-ff6992dd6ca8,Bihar,BR,IN-BR
+3ef31277-ebb0-4d7b-bc71-2fdd02add97e,Chandigarh,CH,IN-CH;CHD
+afdfad7a-7c73-4d51-bf06-b85e0f3c2fd5,Chhattisgarh,CT,IN-CT;CG
+ebe88155-0b82-4167-8b07-fdb0f4a2ce0d,Dadra and Nagar Haveli,DN,IN-DN;DNH
+a801f728-184c-4abe-aa8f-cd560006523a,Daman and Diu,DD,IN-DD
+5dc885f3-b7ed-4662-bdf4-6447c8239ec3,Delhi,DL,IN-DL;DEL
+ef592e91-aaad-477c-8471-a46a2b9d3644,Goa,GA,IN-GA
+f1f224f8-9a1c-4317-9048-01ae1333ac5e,Gujarat,GJ,IN-GJ;GUJ
+0b1e097d-0315-48c7-be0e-52bd802ea0e0,Haryana,HR,IN-HR
+fc272f2a-d3cc-4431-8048-11a6a3dd961b,Himachal Pradesh,HP,IN-HP
+2f27848e-a198-418d-8f7d-da6f4b1433f9,Jammu and Kashmir,JK,IN-JK
+b2e3b4f1-1db8-4716-ab7f-70cb2f6ffd13,Jharkhand,JH,IN-JH
+58236f79-afca-4c73-8301-1a3661236855,Karnataka,KA,IN-KA;KRN
+4c84c733-848e-49c1-b6e0-328f4d4f612c,Kerala,KL,IN-KL;KER
+050ef318-5756-4eb7-98c5-f5e544cc869d,Lakshadweep,LD,IN-LD;LKP
+71638e1a-cbb3-4cc1-a9f6-6f66b47518e5,Madhya Pradesh,MP,IN-MP
+9b8196c1-6413-4bf5-b771-67c89f027589,Maharashtra,MH,IN-MH;MAH
+e29ed911-f265-4f06-a5e7-4333b000800d,Manipur,MN,IN-MN;MNP
+55acee36-36c1-4a94-b276-1446f06f6aef,Meghalaya,ML,IN-ML;MEG
+3f84f41c-886b-4cb6-8417-46e60a5871ca,Mizoram,MZ,IN-MZ;MIZ
+ad30b097-3867-41bf-ae9a-bdd1d68d070e,Nagaland,NL,IN-NL;NLD
+e443cf45-579d-40cf-9157-ea36a5698675,Odisha,OR,IN-OR;OD;Orissa
+fe41cfe0-aef9-4fa9-b730-94ed9336bff1,Puducherry,PY,IN-PY;PDY
+fe667a10-07c5-4b55-b165-2ae8d28f87ea,Punjab,PB,IN-PB
+714c60d2-9496-4253-bf53-4e294e104e77,Rajasthan,RJ,IN-RJ;RAJ
+cff7b6cb-a9b4-4605-8909-f86511a05156,Sikkim,SK,IN-SK;SKM
+83d66b14-c708-4acb-a9d7-f1fc29899064,Tamil Nadu,TN,IN-TN
+fb019dac-d79b-4641-abe0-c7a8cbe7703b,Telangana,TG,IN-TG;TS
+9cdb8020-23f3-4145-a6c6-50979f0611eb,Tripura,TR,IN-TR;TRP
+0fe91877-7b89-4869-8cf6-44fe970374ed,Uttar Pradesh,UP,IN-UP
+da501ae6-4f34-4924-abed-70c29cedc60f,Uttarakhand,UT,IN-UT;UK;UA;Uttaranchal
+f619b152-918f-46fa-abca-da016905ec58,West Bengal,WB,IN-WB

@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "02d773ba-f112-4e51-960a-dfc98b2ddcb2",
+		"name": "TAP API (iWorks)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Master DBs",
+			"item": [
+				{
+					"name": "APIs",
+					"item": [
+						{
+							"name": "Institute Controller (API)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:5000/api/institute_details",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"institute_details"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "States Controller",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "StateID",
+									"value": "2f27848e-a198-418d-8f7d-da6f4b1433f9",
+									"description": "Should Return JK Data",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "StateID",
+									"value": "invalid-state-id",
+									"description": "When ID is Not Present - 204 is Raised",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "StateAbbreviation",
+									"value": "PB",
+									"description": "State Short Name",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/master/states",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"master",
+								"states"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Institutes Controller",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "StateID",
+									"value": "f619b152-918f-46fa-abca-da016905ec58",
+									"description": "Return all Institute in that Particular State",
+									"type": "text"
+								},
+								{
+									"key": "InstituteID",
+									"value": "2",
+									"description": "Returns a Single Institute of ID = 2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/master/institutes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"master",
+								"institutes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

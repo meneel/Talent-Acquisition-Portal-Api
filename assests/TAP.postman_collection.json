@@ -1,0 +1,970 @@
+{
+	"info": {
+		"_postman_id": "488b2dfd-b6bf-431a-b87b-bea07ef7e12f",
+		"name": "TAP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/update_qualification",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "InstituteID",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "QualificationName",
+							"value": "abcd1",
+							"type": "text"
+						},
+						{
+							"key": "QualificationID",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/update_qualification",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"update_qualification"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api2/specialization",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api2/specialization",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api2",
+						"specialization"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/post_specialization",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "QualificationID",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "SpecializationName",
+							"value": "abcd2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/post_specialization",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"post_specialization"
+					],
+					"query": [
+						{
+							"key": "QualificationID",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/post_board",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "BoardName",
+							"value": "ababa",
+							"type": "text"
+						},
+						{
+							"key": "Class10",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/post_board",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"post_board"
+					],
+					"query": [
+						{
+							"key": "BoardName",
+							"value": "abcd5",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "reviewer123@outlook.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "abcd",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/post_question",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "SubjectID",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "Question",
+							"value": "15 question",
+							"type": "text"
+						},
+						{
+							"key": "WrongOptions",
+							"value": "a,b,c,d",
+							"type": "text"
+						},
+						{
+							"key": "CorrectOption",
+							"value": "e",
+							"type": "text"
+						},
+						{
+							"key": "Marks",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "Time",
+							"value": "5",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/post_question",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"post_question"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/post_subject",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "SubjectName",
+							"value": "HTML",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/post_subject",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"post_subject"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api4/level1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"SubjectID\": 1, \"UUID\": \"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\"\r\n    },\r\n    {\r\n        \"SubjectID\": 2, \"UUID\": \"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\"\r\n    },\r\n    {\r\n        \"SubjectID\": 3, \"UUID\": \"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api4/level1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api4",
+						"level1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/check_answer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"L1QuestionID\":1,\r\n        \"SelectedAnswer\":\"e\",\r\n        \"UUID\":\"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\",\r\n        \"SubjectID\":1\r\n    },\r\n    {\r\n        \"L1QuestionID\":2,\r\n        \"SelectedAnswer\":\"f\",\r\n        \"UUID\":\"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\",\r\n        \"SubjectID\":1\r\n    },\r\n    {\r\n        \"L1QuestionID\":3,\r\n        \"SelectedAnswer\":\"e\",\r\n        \"UUID\":\"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\",\r\n        \"SubjectID\":1\r\n    },\r\n    {\r\n        \"L1QuestionID\":4,\r\n        \"SelectedAnswer\":\"e\",\r\n        \"UUID\":\"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\",\r\n        \"SubjectID\":1\r\n    },\r\n    {\r\n        \"L1QuestionID\":5,\r\n        \"SelectedAnswer\":\"e\",\r\n        \"UUID\":\"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\",\r\n        \"SubjectID\":1\r\n    },\r\n    {\r\n        \"L1QuestionID\":6,\r\n        \"SelectedAnswer\":\"e\",\r\n        \"UUID\":\"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\",\r\n        \"SubjectID\":1\r\n    },\r\n    {\r\n        \"L1QuestionID\":8,\r\n        \"SelectedAnswer\":\"e\",\r\n        \"UUID\":\"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\",\r\n        \"SubjectID\":2\r\n    },\r\n    {\r\n        \"L1QuestionID\":9,\r\n        \"SelectedAnswer\":\"e\",\r\n        \"UUID\":\"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\",\r\n        \"SubjectID\":2\r\n    },\r\n    {\r\n        \"L1QuestionID\":10,\r\n        \"SelectedAnswer\":\"e\",\r\n        \"UUID\":\"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\",\r\n        \"SubjectID\":2\r\n    },\r\n    {\r\n        \"L1QuestionID\":13,\r\n        \"SelectedAnswer\":\"f\",\r\n        \"UUID\":\"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\",\r\n        \"SubjectID\":3\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/check_answer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"check_answer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/question/level1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/question/level1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"question",
+						"level1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/post_question2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "SubjectID",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "Question",
+							"value": "5 Question",
+							"type": "text"
+						},
+						{
+							"key": "Marks",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "Time",
+							"value": "4.5",
+							"type": "text"
+						},
+						{
+							"key": "Instruction",
+							"value": "bababa",
+							"type": "text"
+						},
+						{
+							"key": "FileUpload",
+							"value": "bababa",
+							"type": "text"
+						},
+						{
+							"key": "Image",
+							"value": "obaeiufiefv",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/post_question2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"post_question2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api5/level2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UUID\": \"eca02d2d-caf4-4b0b-8fe8-097bf5262fcf\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api5/level2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api5",
+						"level2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/check_answer2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "UUID",
+							"value": "eca02d2d-caf4-4b0b-8fe8-097bf5262fcf",
+							"type": "text"
+						},
+						{
+							"key": "SelectedAnswer",
+							"value": "e",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/check_answer2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"check_answer2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/post_reviewer_profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "UUID",
+							"value": "0c0252b6-5c85-4627-b962-9ccdc34d0088",
+							"type": "text"
+						},
+						{
+							"key": "AssignedSubject",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/post_reviewer_profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"post_reviewer_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/institute_details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/institute_details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"institute_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api6/result/level1?UUID=eca02d2d-caf4-4b0b-8fe8-097bf5262fcf&ExamID=8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api6/result/level1?UUID=eca02d2d-caf4-4b0b-8fe8-097bf5262fcf&ExamID=8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api6",
+						"result",
+						"level1"
+					],
+					"query": [
+						{
+							"key": "UUID",
+							"value": "eca02d2d-caf4-4b0b-8fe8-097bf5262fcf"
+						},
+						{
+							"key": "ExamID",
+							"value": "8"
+						},
+						{
+							"key": "SubjectID",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/user/project_review_status?UUID=30f8050d-9a0e-4fab-b827-c9a0ca46a494",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/user/project_review_status?UUID=30f8050d-9a0e-4fab-b827-c9a0ca46a494",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"user",
+						"project_review_status"
+					],
+					"query": [
+						{
+							"key": "UUID",
+							"value": "30f8050d-9a0e-4fab-b827-c9a0ca46a494"
+						},
+						{
+							"key": "rev_id",
+							"value": "eca02d2d-caf4-4b0b-8fe8-097bf5262fcf",
+							"disabled": true
+						},
+						{
+							"key": "SubjectID",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/exam_result?UUID=eca02d2d-caf4-4b0b-8fe8-097bf5262fcf",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/exam_result?UUID=eca02d2d-caf4-4b0b-8fe8-097bf5262fcf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"exam_result"
+					],
+					"query": [
+						{
+							"key": "UUID",
+							"value": "eca02d2d-caf4-4b0b-8fe8-097bf5262fcf"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/post_review?UUID=eca02d2d-caf4-4b0b-8fe8-097bf5262fcf&Review=bbbbb&L2Marks=1&ExamID=1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/post_review?UUID=eca02d2d-caf4-4b0b-8fe8-097bf5262fcf&Review=bbbbb&L2Marks=1&ExamID=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"post_review"
+					],
+					"query": [
+						{
+							"key": "UUID",
+							"value": "eca02d2d-caf4-4b0b-8fe8-097bf5262fcf"
+						},
+						{
+							"key": "Review",
+							"value": "bbbbb"
+						},
+						{
+							"key": "L2Marks",
+							"value": "1"
+						},
+						{
+							"key": "ExamID",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/dashboard?UUID=0c0252b6-5c85-4627-b962-9ccdc34d0088",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/dashboard?UUID=0c0252b6-5c85-4627-b962-9ccdc34d0088",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"dashboard"
+					],
+					"query": [
+						{
+							"key": "UUID",
+							"value": "0c0252b6-5c85-4627-b962-9ccdc34d0088"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/master1/qualification?QualificationID=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/master1/qualification?QualificationID=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"master1",
+						"qualification"
+					],
+					"query": [
+						{
+							"key": "QualificationID",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://115.124.120.251:5031/dashboard?UUID=21d8f9de-d97f-4a85-93ee-604f1852996b",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://115.124.120.251:5031/dashboard?UUID=21d8f9de-d97f-4a85-93ee-604f1852996b",
+					"protocol": "http",
+					"host": [
+						"115",
+						"124",
+						"120",
+						"251"
+					],
+					"port": "5031",
+					"path": [
+						"dashboard"
+					],
+					"query": [
+						{
+							"key": "UUID",
+							"value": "21d8f9de-d97f-4a85-93ee-604f1852996b"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/reviewer_dashboard/reviewer_profile?UUID=30f8050d-9a0e-4fab-b827-c9a0ca46a494",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/reviewer_dashboard/reviewer_profile?UUID=30f8050d-9a0e-4fab-b827-c9a0ca46a494",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"reviewer_dashboard",
+						"reviewer_profile"
+					],
+					"query": [
+						{
+							"key": "UUID",
+							"value": "30f8050d-9a0e-4fab-b827-c9a0ca46a494"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/master/board?BoardID=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/master/board?BoardID=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"master",
+						"board"
+					],
+					"query": [
+						{
+							"key": "BoardID",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/specialization/validate?QualificationID=2&SpecializationName=ece",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/specialization/validate?QualificationID=2&SpecializationName=ece",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"specialization",
+						"validate"
+					],
+					"query": [
+						{
+							"key": "StartYear",
+							"value": "2021",
+							"disabled": true
+						},
+						{
+							"key": "EndYear",
+							"value": "2027",
+							"disabled": true
+						},
+						{
+							"key": "Marks",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "Email",
+							"value": "reviewer125@outlook.com",
+							"disabled": true
+						},
+						{
+							"key": "MobileNumber",
+							"value": "987864217",
+							"disabled": true
+						},
+						{
+							"key": "Username",
+							"value": "review_3a",
+							"disabled": true
+						},
+						{
+							"key": "Percentage",
+							"value": "100.0000",
+							"disabled": true
+						},
+						{
+							"key": "InstituteName",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "InstituteID",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "QualificationName",
+							"value": "k.Tech",
+							"disabled": true
+						},
+						{
+							"key": "QualificationID",
+							"value": "2"
+						},
+						{
+							"key": "SpecializationName",
+							"value": "ece"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://115.124.120.251:5031/forgot_password?email=meneel2000@gmail.com",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://115.124.120.251:5031/forgot_password?email=meneel2000@gmail.com",
+					"protocol": "http",
+					"host": [
+						"115",
+						"124",
+						"120",
+						"251"
+					],
+					"port": "5031",
+					"path": [
+						"forgot_password"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "meneel2000@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/reset_password?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVVUlEIjpbImViZDFmN2NiLWQ5YjktNDFjMS1iMzVmLTI0NGUyNDUzN2ZhZSJdLCJleHAiOjE2MzEzNzYwNTMsIlVzZXJSb2xlIjpbIlVzZXIiXX0.eKNqoATHYj3RrXeMjRMvfDO24YzhEZ9SbuRO7WUnAhw&old_password=abcd&password=1234",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/reset_password?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVVUlEIjpbImViZDFmN2NiLWQ5YjktNDFjMS1iMzVmLTI0NGUyNDUzN2ZhZSJdLCJleHAiOjE2MzEzNzYwNTMsIlVzZXJSb2xlIjpbIlVzZXIiXX0.eKNqoATHYj3RrXeMjRMvfDO24YzhEZ9SbuRO7WUnAhw&old_password=abcd&password=1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"reset_password"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVVUlEIjpbImViZDFmN2NiLWQ5YjktNDFjMS1iMzVmLTI0NGUyNDUzN2ZhZSJdLCJleHAiOjE2MzEzNzYwNTMsIlVzZXJSb2xlIjpbIlVzZXIiXX0.eKNqoATHYj3RrXeMjRMvfDO24YzhEZ9SbuRO7WUnAhw"
+						},
+						{
+							"key": "old_password",
+							"value": "abcd"
+						},
+						{
+							"key": "password",
+							"value": "1234"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/login?username=meneel2000@gmail.com&password=1234",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/login?username=meneel2000@gmail.com&password=1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"login"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "meneel2000@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "1234"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

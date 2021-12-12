@@ -1,0 +1,94 @@
+# Flask Application and its Related Dependencies
+Flask==2.0.1
+Flask-Babel==2.0.0
+Flask-Bcrypt==0.7.1
+Flask-Cors==3.0.10
+Flask-DebugToolbar==0.11.0
+Flask-Limiter==1.4
+Flask-Login==0.5.0
+Flask-Mail==0.9.1
+Flask-RESTful==0.3.9
+Flask-SQLAlchemy==2.5.1
+
+
+# database and related tools
+PyMySQL==1.0.2
+SQLAlchemy==1.4.22
+
+# forms handling
+Flask-WTF==0.15.1
+WTForms==2.3.3
+WTForms-Components==0.10.5
+
+# testing and static analysis
+flake8==3.9.2
+pytest==6.2.4
+pytest-cov==2.12.1
+
+# foreign function and dependencies
+Jinja2==3.0.1
+
+# application server for production and development
+Werkzeug==2.0.1
+
+# utilities
+python-dotenv==0.19.0
+PyYAML==5.4.1
+
+# additional dependencies
+# these are required by one or more packages
+# if not installed with `pip install -r requirements.txt`
+# these should/not be automatically downloaded by
+# pip package manager
+# comment to install the specific version, or
+# allow pip to automatically check and download
+# run `pip check`
+alembic==1.6.5
+amqp==5.0.6
+aniso8601==9.0.1
+attrs==21.2.0
+Babel==2.9.1
+bcrypt==3.2.0
+billiard==3.6.4.0
+blinker==1.4
+celery==5.1.2
+certifi==2021.5.30
+cffi==1.14.6
+click==7.1.2
+click-didyoumean==0.0.3
+click-plugins==1.1.1
+click-repl==0.2.0
+coverage==5.5
+cryptography==3.4.7
+decorator==5.0.9
+dnspython==2.1.0
+email-validator==1.1.3
+greenlet==1.1.1
+idna==3.2
+infinity==1.5
+iniconfig==1.1.1
+intervals==0.9.2
+itsdangerous==2.0.1
+kombu==5.1.0
+limits==1.5.1
+Mako==1.1.4
+MarkupSafe==2.0.1
+mccabe==0.6.1
+mock==4.0.3
+packaging==21.0
+pluggy==0.13.1
+prompt-toolkit==3.0.19
+py==1.10.0
+pycodestyle==2.7.0
+pycparser==2.20
+pyflakes==2.3.1
+pyparsing==2.4.7
+python-dateutil==2.8.2
+python-editor==1.0.4
+pytz==2021.1
+redis==3.5.3
+six==1.16.0
+toml==0.10.2
+validators==0.18.2
+vine==5.0.0
+wcwidth==0.2.5
